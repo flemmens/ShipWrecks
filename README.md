@@ -10,7 +10,8 @@ Recensement des sites qui répertorient les épaves de navires et d'autres objet
 
 | Source | Contenu | Volume | Accès / licence |
 |---|---|---|---|
-| ★ [EMODnet – Wrecks (données UKHO)](https://emodnet.ec.europa.eu/en/extensive-wreck-data-set-now-available-emodnet) | Épaves cartographiées ou non, dans le monde entier : nom, type, pavillon, longueur, profondeur, date, circonstances | 94 000+ | Gratuit, Open Government Licence, mis à jour chaque trimestre |
+| ★ [EMODnet – Worldwide wrecks (UKHO)](https://emodnet.ec.europa.eu/geonetwork/srv/api/records/108ef240-fa6e-4b83-8569-09b509e2959d) | Épaves cartographiées ou non, dans le monde entier : position, profondeur, longueur, largeur, tonnage, circonstances du naufrage | 67 000+ (fiche) à 94 000+ ([annonce](https://emodnet.ec.europa.eu/en/extensive-wreck-data-set-now-available-emodnet)) | CC BY 4.0 / OGL v3. [ZIP](https://ows.emodnet-humanactivities.eu/geonetwork/srv/api/records/108ef240-fa6e-4b83-8569-09b509e2959d/attachments/EMODnet_HA_Heritage_WW_Wrecks_20241226.zip) (shapefile, gdb) ; WFS `https://ows.emodnet-humanactivities.eu/wfs`, couche `emodnet:wwshipwrecks` |
+| ★ [EMODnet – Cultural Heritage, Ship wrecks](https://emodnet.ec.europa.eu/geonetwork/srv/api/records/e965088b-a265-4517-84df-c49b156af8a7) | Europe : agrège SHOM, Irlande (NMS), Historic England, OxREP | ? | CC BY 4.0. [ZIP](https://ows.emodnet-humanactivities.eu/geonetwork/srv/api/records/e965088b-a265-4517-84df-c49b156af8a7/attachments/EMODnet_HA_Heritage_Shipwrecks_20250409.zip) ; WFS couche `emodnet:heritageshipwrecks` |
 | [UKHO / ADMIRALTY Marine Data](https://admiralty.co.uk/access-data/marine-data) | Source d'origine des données ci-dessus (épaves et obstructions) | idem | Portail ADMIRALTY |
 | [Wrecksite.eu](https://wrecksite.eu) | Plus grande base communautaire : épaves, positions, photos, cartes | ~187 000 (2019) à 214 000 | Freemium, pas de réutilisation libre. Lien possible via Wikidata P9135 |
 | [ShipwreckMap](https://www.shipwreckmap.ca/) | Agrège UKHO, NOAA AWOIS/ENC, Wikidata, OSM ; inclut des avions | 87 000+ | Export CSV payant |
@@ -63,7 +64,7 @@ Recensement des sites qui répertorient les épaves de navires et d'autres objet
 
 ### Priorités d'intégration
 
-1. **EMODnet / UKHO** : base mondiale de départ (94 000 épaves, avec profondeur).
+1. **EMODnet / UKHO** : base mondiale de départ (67 000 à 94 000 épaves, avec profondeur), complétée par la couche européenne EMODnet Cultural Heritage.
 2. **NOAA**, **SHOM**, **Irlande**, **Canmore** : bases officielles ouvertes avec coordonnées.
 3. **Wikipedia / Wikidata** : textes et images, avec l'identifiant Wrecksite pour faire le lien.
 4. **OxREP** (Antiquité), **EMODnet munitions** et **OSM** (autres objets immergés).

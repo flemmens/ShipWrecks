@@ -1,0 +1,4 @@
+.env
+cache/
+export/
+__pycache__/
